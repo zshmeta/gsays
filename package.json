@@ -1,0 +1,40 @@
+{
+  "name": "gsays",
+  "module": "index.js",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A simple module and cli to get translation from google translate",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "gsays": "node --no-warnings ./bin/cli.js"
+  },
+  "bin": {
+    "gsays": "./bin/cli.js"
+  },
+  "keywords": [
+    "google",
+    "translate",
+    "gsays"
+  ],
+  "author": "zshmeta",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "eslint": "^9.5.0",
+    "jest": "^29.7.0",
+    "path": "^0.12.7",
+    "user-agent": "^1.0.4",
+    "user-agents": "^1.1.235",
+    "yargs": "^17.7.2"
+  }
+}
