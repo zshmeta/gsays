@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S node --no-warnings
 
 import gsays from '../index.js';
 import fs from 'fs/promises';

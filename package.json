@@ -11,7 +11,7 @@
     "gsays": "node --no-warnings ./bin/cli.js"
   },
   "bin": {
-    "gsays": "./bin/cli.js"
+    "gsays": " ./bin/cli.js"
   },
   "keywords": [
     "google",
